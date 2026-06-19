@@ -1,4 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+html, body, main{
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+h1, h2, h3 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+footer{
+  margin-bottom: 20px;
+}
 
 .inRoxo {
     font-size: 28px;
@@ -14,23 +37,23 @@
 
 .header-img{
    display: flex;
-   height: 300px;
+   width: auto;
+   height: 250px;
 }
 
 .grid-card {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 100px;
 }
 
 .card{
-    flex-wrap: nowrap;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
     border-style: groove;
     border-color: rgb(1, 126, 1);
+    width: 250px;
 }
 
 .card-content{
@@ -51,48 +74,8 @@
 .card-img{
     display: block;
     width: 100%;
-    height: auto;
-}
-
-.imgJack {
-    display: flex;
-    margin: 10px;
-    margin-bottom: -240px;
-    height: 248px;
-}
-
-.imgAzeite {
-    display: flex;
-    margin-left: 350px;
-    height: 248px;
-}
-
-.imgBody {
-    display: flex;
-    margin: 10px;
-    margin-left: 150px;
-    margin-bottom: -300px;
     height: 300px;
-}
-
-.imgPaleta {
-    display: flex;
-    margin-left: 430px;
-    height: 300px;
-}
-
-.imgCopa {
-    display: flex;
-    margin: 10px;
-    margin-left: 180px;
-    margin-bottom: -240px;
-    height: 248px;
-}
-
-.imgFlamengo {
-    display: flex;
-    margin-left: 600px;
-    height: 248px;
+    object-fit: contain;
 }
 
 .imgCadeirinha {
@@ -151,24 +134,14 @@
     display: flex;
     font-size: 28px;
     padding: 20px 20px;
-    height: auto;
-    border: none;
     border-radius: 8px;
     border-style: double;
     background-color: rgb(43, 124, 245);
     color: aliceblue;
     cursor: pointer;
-
-}
-
-.grid-bar{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    
 }
 
 .bar-content{
-    display: grid;
     position: static;
     height: auto;
     background-color: rgb(1, 126, 1);
@@ -181,4 +154,9 @@
     align-items: flex-end;
     justify-content: flex-end;
     padding-right: 30px;
+}
+
+.footer-content{
+    display: flex;
+    position: static;
 }

@@ -1,28 +1,57 @@
- .incadastro{
-            display: flex;
-            font-size: 22px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-        input:valid{
-            border: 2px solid green
-        }
+ html,
+ body,
+ main {
+     width: 100%;
+     min-height: 100vh;
+     overflow-x: hidden;
+ }
 
-        input:invalid{
-            border: 2px solid red
-        }
+ p {
+     margin-bottom: 16px;
+ }
 
-        img{
-            display: flex;
-            height: 300px;
-        }
+ h1,
+ h2,
+ h3 {
+     margin-top: 20px;
+     margin-bottom: 10px;
+ }
 
-        .barra2{
-            display: flex;
-            position: static;
-            top: 0;
-            left: 0;
-            right: 0;
-            height: 20px;
-            background-color: rgb(1, 126, 1);
-        }
+ footer {
+     margin-bottom: 20px;
+ }
+
+ .incadastro {
+     display: flex;
+     font-size: 22px;
+     font-family: Arial, Helvetica, sans-serif;
+ }
+
+ input:valid {
+     border: 2px solid green
+ }
+
+ input:invalid {
+     border: 2px solid red
+ }
+
+ img {
+     display: flex;
+     height: 300px;
+ }
+
+ .barra2 {
+     display: flex;
+     position: static;
+     top: 0;
+     left: 0;
+     right: 0;
+     height: 20px;
+     background-color: rgb(1, 126, 1);
+ }
