@@ -1,0 +1,78 @@
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+
+  html,
+  body,
+  main {
+      width: 100%;
+      min-height: 100vh;
+      overflow-x: hidden;
+  }
+
+  p {
+      margin-bottom: 16px;
+  }
+
+  h1,
+  h2,
+  h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .inRoxo {
+      font-size: 28px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .input {
+      min-height: 50px;
+      font-size: 30px;
+      border-color: rgb(1, 126, 1);
+  }
+
+  .header-img {
+      display: flex;
+      width: auto;
+      height: 250px;
+  }
+  .cadastre {
+    display: flex;
+    font-size: 28px;
+    padding: 20px 20px;
+    border-radius: 8px;
+    border-style: double;
+    background-color: rgb(43, 124, 245);
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.bar-content{
+    position: static;
+    height: auto;
+    background-color: rgb(1, 126, 1);
+    display: block;
+
+}
+
+.bar-form-acess {
+    display: grid;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 30px;
+}
+
+.footer-content{
+    display: block;
+    height: 200px;
+    position: static;
+    background-color: rgb(1, 126, 1);
+}
+.footer-text{
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
