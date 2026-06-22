@@ -1,6 +1,7 @@
  :root{
     --cor-primaria: rgb(1, 126, 1);
     --cor-cadastre: rgb(85, 85, 255);
+    --bar-nav-color: rgb(0, 68, 255);
 }
  
  * {
