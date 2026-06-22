@@ -1,3 +1,8 @@
+:root{
+    --cor-primaria: rgb(1, 126, 1);
+    --cor-cadastre: rgb(85, 85, 255);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,10 +30,15 @@ h1, h2, h3 {
 
 }
 
+.inTitulo {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .input {
     min-height: 50px;
     font-size: 30px;
-    border-color: rgb(1, 126, 1);
+    border-color: var(--cor-primaria);
 }
 
 .header-img{
@@ -43,7 +53,7 @@ h1, h2, h3 {
     padding: 20px 20px;
     border-radius: 8px;
     border-style: double;
-    background-color: rgb(43, 124, 245);
+    background-color: var(--cor-cadastre);
     color: aliceblue;
     cursor: pointer;
 }
@@ -51,7 +61,7 @@ h1, h2, h3 {
 .bar-content{
     position: static;
     height: auto;
-    background-color: rgb(1, 126, 1);
+    background-color: var(--cor-primaria);
     display: block;
 
 }
@@ -67,7 +77,7 @@ h1, h2, h3 {
     display: block;
     height: 200px;
     position: static;
-    background-color: rgb(1, 126, 1);
+    background-color: var(--cor-primaria);
 }
 .footer-text{
     font-size: 28px;

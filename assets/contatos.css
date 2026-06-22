@@ -1,4 +1,9 @@
-  * {
+ :root{
+    --cor-primaria: rgb(1, 126, 1);
+    --cor-cadastre: rgb(85, 85, 255);
+}
+ 
+ * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
@@ -31,7 +36,7 @@
   .input {
       min-height: 50px;
       font-size: 30px;
-      border-color: rgb(1, 126, 1);
+      border-color: var(--cor-primaria);
   }
 
   .header-img {
@@ -45,7 +50,7 @@
     padding: 20px 20px;
     border-radius: 8px;
     border-style: double;
-    background-color: rgb(43, 124, 245);
+    background-color: var(--cor-cadastre);
     color: aliceblue;
     cursor: pointer;
 }
@@ -53,7 +58,7 @@
 .bar-content{
     position: static;
     height: auto;
-    background-color: rgb(1, 126, 1);
+    background-color: var(--cor-primaria);
     display: block;
 
 }
@@ -69,7 +74,7 @@
     display: block;
     height: 200px;
     position: static;
-    background-color: rgb(1, 126, 1);
+    background-color: var(--cor-primaria);
 }
 .footer-text{
     font-size: 28px;
