@@ -35,9 +35,13 @@
  }
 
  .input {
-     min-height: 50px;
-     font-size: 30px;
-     border-color: var(--cor-primaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+    font-size: 30px;
+    border-radius: 8px;
+
  }
 
  .nav-color-bar {
@@ -73,6 +77,7 @@
     display: flex;
     justify-content: center;
     height: 300px;
+    filter: drop-shadow(5px 10px 8px rgba(0, 0, 0, 0.5))
  }
 
  .cadastre {
@@ -113,3 +118,12 @@
      font-family: Arial, Helvetica, sans-serif;
      color: aliceblue;
  }
+
+ @media (max-width: 420px) {
+    .navbar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+}

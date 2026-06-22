@@ -2,7 +2,7 @@
      --cor-primaria: rgb(1, 126, 1);
      --cor-erro: red;
      --cor-valido: green;
-     --cor-cadastre: rgb(43, 124, 245);
+     --cor-cadastre: rgb(85, 85, 255);
  }
 
  * {
@@ -45,9 +45,10 @@
  }
 
  img {
-     display: flex;
+     display: block;
      justify-content: center;
      height: 300px;
+     filter: drop-shadow(5px 10px 8px rgba(0, 0, 0, 0.5))
  }
 
  .nav-color-bar {
@@ -89,30 +90,12 @@
      background-color: var(--cor-primaria);
  }
 
- .cadastre {
-     display: flex;
-     font-size: 28px;
-     padding: 20px 20px;
-     border-radius: 8px;
-     border-style: double;
-     background-color: var(--cor-cadastre);
-     color: aliceblue;
-     cursor: pointer;
- }
-
  .bar-content {
      position: static;
      height: auto;
      background-color: var(--cor-primaria);
      display: block;
 
- }
-
- .bar-form-acess {
-     display: grid;
-     align-items: flex-end;
-     justify-content: flex-end;
-     padding-right: 30px;
  }
 
  .footer-content {
@@ -133,3 +116,12 @@
      font-size: 30px;
      border-color: var(--cor-primaria);
  }
+
+@media (max-width: 420px) {
+    .navbar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+}

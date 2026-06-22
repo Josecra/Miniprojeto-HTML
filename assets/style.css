@@ -37,18 +37,19 @@ h3 {
 
 .input {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     min-height: 50px;
-    max-height: auto;
     font-size: 30px;
-    border-color: var(--cor-primaria);
+    border-radius: 8px;
+
 }
 
 .header-img {
     display: flex;
     justify-content: center;
     height: 300px;
+     filter: drop-shadow(5px 10px 8px rgba(0, 0, 0, 0.5))
 }
 
 
@@ -63,6 +64,7 @@ h3 {
     gap: 30px;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
 }
 
 .navbar a {
@@ -85,8 +87,6 @@ h3 {
 }
 
 .card {
-    align-items: center;
-    justify-content: center;
     border-radius: 8px;
     border-style: groove;
     border-color: var(--cor-primaria);
@@ -136,8 +136,8 @@ h3 {
 
 .bar-form-acess {
     display: flex;
-    justify-content: flex-end;
     padding: 20px 20px;
+    justify-content: flex-end;
 }
 
 .footer-content {
@@ -151,4 +151,13 @@ h3 {
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
     color: aliceblue;
+}
+
+@media (max-width: 420px) {
+    .navbar {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
 }
