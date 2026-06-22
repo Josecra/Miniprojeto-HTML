@@ -34,7 +34,7 @@ h3 {
   align-items: center;
   padding: 20px;
   position: static;
-  background-color: var(--landing-color);
+  background-color: var(--cor-cadastre)
 }
 
 .navbar {
@@ -66,11 +66,9 @@ h3 {
 .container {
   display: grid;
   width: 100%;
-  max-width: 100vw;
   grid-template-columns: 1fr;
   grid-template-areas: "header"
     "menu" "content" "footer";
-  gap: 5px
 }
 
 .header,
@@ -78,7 +76,6 @@ h3 {
 .content,
 .footer {
   width: auto;
-  max-width: 100%;
   box-sizing: border-box;
 }
 
@@ -181,8 +178,15 @@ h3 {
 }
 
 .formGroup {
+  display: flex;
   align-items: center;
-  margin: 20px 800px auto;
+  justify-content: center;
+}
+
+.center-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .formStyle {
@@ -193,8 +197,10 @@ h3 {
 }
 
 .formButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 10px 30px;
-  margin: 20px 870px auto;
   border-radius: 4px;
   border-style: groove;
   background-color: var(--cor-cadastre);

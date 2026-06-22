@@ -10,7 +10,6 @@
 
 <body>
     <div class="container">
-
         <header class="header">
             <div class="headerBar">
                 <nav class="navbar">
@@ -29,10 +28,12 @@
             <div class="buttons">
                 <button class="button">Faça Login</button>
             </div>
-            <div class="cadbutton">
-                <button class="button">Cadastre-se</button>
-            </div>
 
+            <a href="/cadastro.html">
+                <div class="cadbutton">
+                    <button class="button">Cadastre-se</button>
+                </div>
+            </a>
 
             <div class="contentBars">
             </div>
@@ -101,8 +102,9 @@
             <h1 class="titles">Pronto para transformar sua experiência de compra?</h1>
             <p class="contentText">Faça login para receber nossas ofertas exclusivas!</p>
 
-            <div class="loginForm">
-                <form>
+
+            <form>
+                <div class="loginForm">
                     <div class="formGroup">
                         <label class="texts" for="email">Email:</label>
                         <input class="formStyle" type="email" id="email" name="email" required>
@@ -111,9 +113,11 @@
                         <label class="texts" for="senha">Senha:</label>
                         <input class="formStyle" type="password" id="senha" name="senha" required>
                     </div>
-                    <button type="submit" class="formButton">Entrar</button>
-                </form>
-            </div>
+                    <div class="center-button">
+                        <button type="submit" class="formButton">Entrar</button>
+                    </div>
+                </div>
+            </form>
 
             <div class="footerBar">
                 <br>
